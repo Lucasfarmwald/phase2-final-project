@@ -7,5 +7,37 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 13px;
 
+}
+.search-bar {
+  border:none;
+  
+  
+  height: 30px;
+  font-size: 15px;
+}
+.search-button {
+  border: none;
+  color:#943652;
+  background: transparent;
+  font-family: Impact;
+  height: 30px;
+  font-size: 20px;
+}
+.header {
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing:10px ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-style: double ;
+}
+.picture {
+  max-height: 40px;
+  min-height: 10px;
+  background: transparent;
+  
+}
+.navbar {
+  display: flex;
 }
