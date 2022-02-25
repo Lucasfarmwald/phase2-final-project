@@ -5,8 +5,9 @@
 }
 .recipes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 10px;
   font-size: 13px;
 
 }
@@ -30,7 +31,7 @@
   padding: 10px;
   letter-spacing:10px ;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  border-style: double ;
+  border: double 15px;
 }
 .picture {
   max-height: 40px;
@@ -40,4 +41,18 @@
 }
 .navbar {
   display: flex;
+}
+.add-your-own {
+  border: double 15px;
+  padding: 10px;
+}
+.add-your-own-button {
+  background:black;
+  border:none;
+  height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size:10px;
+  width: 300px;
 }
